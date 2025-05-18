@@ -3,7 +3,7 @@
 A high-performance Python tool for sending HTTP requests through the Tor network, providing robust privacy, IP rotation, and advanced session management for secure web scraping and data collection.
 
 <div align="center">
-  <img src="https://www.torproject.org/images/tor-logo@2x.png" alt="Tor Logo" width="120"/>
+  <img src="[https://www.torproject.org/images/tor-logo@2x.png](https://github.com/TheTorProject/tor-media/blob/master/Tor%20Logo/Purple.png?raw=true)" alt="Tor Logo" width="120"/>
 </div>
 
 ## Features
