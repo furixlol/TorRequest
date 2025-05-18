@@ -3,17 +3,29 @@
 A high-performance Python tool for sending HTTP requests through the Tor network, providing robust privacy, IP rotation, and advanced session management for secure web scraping and data collection.
 
 <div align="center">
-  <img src="[https://www.torproject.org/images/tor-logo@2x.png](https://github.com/TheTorProject/tor-media/blob/master/Tor%20Logo/Purple.png?raw=true)" alt="Tor Logo" width="120"/>
+  <img src="https://github.com/TheTorProject/tor-media/raw/master/Tor%20Logo/Purple.png" alt="Tor Logo" width="120"/>
 </div>
+
+---
 
 ## Features
 
-- Fast, concurrent HTTP requests via the Tor network
-- Automatic IP rotation and session management
-- Built-in caching of Tor exit nodes for efficiency
-- Thread-safe, multi-session architecture
-- Simple CLI for batch requests
-- Easy integration into your own Python projects
+- 🚀 Fast, concurrent HTTP requests via the Tor network  
+- 🔄 Automatic IP rotation and session management  
+- 💾 Built-in caching of Tor exit nodes for efficiency  
+- 🔒 Thread-safe, multi-session architecture  
+- 🛠️ Simple CLI for batch requests  
+- 🧩 Easy integration into your own Python projects  
+
+---
+
+## Visual Overview
+
+<div align="center">
+  <img src="https://files.catbox.moe/7ku84v.png" alt="Tor Request Process" width="600"/>
+</div>
+
+---
 
 ## Quickstart
 
@@ -46,6 +58,8 @@ python tor_request.py
 
 The tool will automatically manage Tor sessions, rotate IPs, and display the status of each request.
 
+---
+
 ## Example
 
 ```text
@@ -58,6 +72,8 @@ Thread 1 - Status Code: 200
 Thread 1 - Response Length: 1256 bytes
 ...
 ```
+
+---
 
 ## Integrate in Your Project
 
@@ -73,6 +89,8 @@ response = session.get("https://example.com")
 print(response.text)
 ```
 
+---
+
 ## Requirements
 
 - Python 3.8+
@@ -83,15 +101,14 @@ print(response.text)
 
 All dependencies are listed in `requirements.txt`.
 
+---
+
 ## Security
 
 All requests are routed through the Tor network for maximum privacy and anonymity. The tool supports automatic IP rotation and session isolation.
 
+---
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-**Fast. Secure. Private.**  
-Empower your web scraping and data collection with Tor. 
